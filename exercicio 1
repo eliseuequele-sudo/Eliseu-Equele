@@ -1,0 +1,125 @@
+> ################### Exercicio 1 ##############
+> 
+> 3+4*8
+[1] 35
+> a=3+4*8
+> a
+[1] 35
+> b=(3+4)*8
+> b
+[1] 56
+> c=8*5+2*3
+> c
+[1] 46
+> d=8*(5+2)*3
+> d
+[1] 168
+> e=2^3+2*sqrt(3)
+> e
+[1] 11.4641
+> f=(2*8)/3+5/(6+8)
+> f
+[1] 5.690476
+> g=1+2+3+4+5+6+7+8
+> g
+[1] 36
+> h=1*2*3*4*5*6*7*8
+> h
+[1] 40320
+> i=(1+1/8)^3
+> i
+[1] 1.423828
+> j=cos(pi)
+> j
+[1] -1
+> k=(sin(pi))^2+(cos(pi))^2
+> k
+[1] 1
+> l=log(9)
+> l
+[1] 2.197225
+> m=abs(8-19)
+> m
+[1] 11
+> n=2/factanal(7)+sqrt(2)/2
+Error in factanal(7) : factor analysis requires at least three variables
+
+> n=2/factorial(7)+sqrt(2)/2
+> n
+[1] 0.7075036
+> 
+> 
+> 2
+[1] 2
+> ######### escreva a seguinte matriz no formato R #######
+> 
+> M<.matrix(c(5,0,6,9,6,4,3,5,2),ncol=3,byrow=T)
+Error: object 'M' not found
+
+> M<-matrix(c(5,0,6,9,6,4,3,5,2),ncol=3,byrow=T)
+> M
+     [,1] [,2] [,3]
+[1,]    5    0    6
+[2,]    9    6    4
+[3,]    3    5    2
+> 
+> 
+> ##########3#######
+> 
+> a<-1:10
+> mode(a)
+[1] "numeric"
+> a
+ [1]  1  2  3  4  5  6  7  8  9 10
+> class(a)
+[1] "integer"
+> b
+[1] 56
+> b<-letters[1:6]
+> mode(b)
+[1] "character"
+> b
+[1] "a" "b" "c" "d" "e" "f"
+> class(b)
+[1] "character"
+> c<-matrix(letters[1:6],ncol=2)
+> mode(c)
+[1] "character"
+> c
+     [,1] [,2]
+[1,] "a"  "d" 
+[2,] "b"  "e" 
+[3,] "c"  "f" 
+> class(c)
+[1] "matrix" "array" 
+> d<-c("verde","azul","rosa")
+> d
+[1] "verde" "azul"  "rosa" 
+> mode(d)
+[1] "character"
+> d
+[1] "verde" "azul"  "rosa" 
+> class(d)
+[1] "character"
+> e<-c(4i,8i,9i)
+> mode(e)
+[1] "complex"
+> e
+[1] 0+4i 0+8i 0+9i
+> class(e)
+[1] "complex"
+> f<-c(5>2,7<2,8>3)
+> mode(f)
+[1] "logical"
+> f
+[1]  TRUE FALSE  TRUE
+> class(f)
+[1] "logical"
+> g<-date()
+> mode(g)
+[1] "character"
+> g
+[1] "Thu Apr  9 10:32:49 2026"
+> class(g)
+[1] "character"
+> 
