@@ -1,0 +1,4 @@
+ # Exemplo fornecido no enunciado
+> resultado <- calcula_LDLc(CT = 192, HDLc = 54, TG = 143)
+> print(resultado)
+[1] 109.4
